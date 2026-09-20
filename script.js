@@ -14,3 +14,18 @@ followForm.addEventListener("submit", function (event) {
 
   emailInput.value = "";
 });
+
+
+// PWA Service Worker
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("sw.js")
+      .then(function () {
+        console.log("Fragments PWA ready.");
+      })
+      .catch(function (error) {
+        console.log("Service Worker registration failed:", error);
+      });
+  });
+}
