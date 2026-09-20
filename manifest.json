@@ -4,7 +4,15 @@
   "description": "Picking up the pieces.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#d90429",
-  "orientation": "portrait-primary"
+  "background_color": "#090909",
+  "theme_color": "#ff1744",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./fragments-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
