@@ -1,0 +1,10 @@
+{
+  "name": "Fragments",
+  "short_name": "Fragments",
+  "description": "Picking up the pieces.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d90429",
+  "orientation": "portrait-primary"
+}
