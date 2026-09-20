@@ -10,8 +10,8 @@ html {
 
 body {
   font-family: Georgia, "Times New Roman", serif;
-  background: #ffffff;
-  color: #181818;
+  background: #090909;
+  color: #f5f5f5;
   line-height: 1.7;
 }
 
@@ -29,14 +29,14 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #d90429;
+  border-bottom: 1px solid #292929;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: -0.5px;
-  color: #d90429;
+  color: #ff1744;
 }
 
 .navigation {
@@ -47,13 +47,14 @@ a {
 }
 
 .navigation a {
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
+  color: #ffffff;
+  opacity: 0.65;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
 .navigation a:hover {
   opacity: 1;
-  color: #d90429;
+  color: #ff1744;
 }
 
 
@@ -80,7 +81,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.7rem;
-  color: #d90429;
+  color: #ff1744;
   margin-bottom: 18px;
 }
 
@@ -89,20 +90,21 @@ main {
   line-height: 0.9;
   letter-spacing: -6px;
   font-weight: normal;
-  color: #d90429;
+  color: #ffffff;
 }
 
 .tagline {
   margin-top: 24px;
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-style: italic;
+  color: #eeeeee;
 }
 
 .intro {
   max-width: 550px;
   margin-top: 30px;
   font-size: 1.05rem;
-  opacity: 0.7;
+  color: #aaaaaa;
 }
 
 
@@ -124,24 +126,25 @@ main {
   font-size: clamp(2rem, 5vw, 3.5rem);
   line-height: 1.1;
   font-weight: normal;
+  color: #ffffff;
 }
 
 
 /* Entries */
 
 .entries {
-  border-top: 2px solid #d90429;
+  border-top: 1px solid #ff1744;
 }
 
 .entry {
   padding: 45px 0;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #292929;
 }
 
 .entry-date {
   font-family: Arial, sans-serif;
   font-size: 0.75rem;
-  color: #d90429;
+  color: #ff1744;
   margin-bottom: 12px;
 }
 
@@ -149,11 +152,12 @@ main {
   font-size: 2rem;
   font-weight: normal;
   margin-bottom: 12px;
+  color: #ffffff;
 }
 
 .entry > p:not(.entry-date) {
   max-width: 650px;
-  opacity: 0.7;
+  color: #aaaaaa;
 }
 
 .read-more {
@@ -161,7 +165,7 @@ main {
   margin-top: 20px;
   font-family: Arial, sans-serif;
   font-size: 0.85rem;
-  color: #d90429;
+  color: #ff1744;
   border-bottom: 1px solid currentColor;
 }
 
@@ -178,7 +182,7 @@ main {
 
 .about-section > p:last-child {
   font-size: 1.15rem;
-  opacity: 0.75;
+  color: #aaaaaa;
 }
 
 
@@ -186,7 +190,7 @@ main {
 
 .follow-section {
   text-align: center;
-  border-top: 2px solid #d90429;
+  border-top: 1px solid #292929;
 }
 
 .follow-section h2 {
@@ -194,7 +198,7 @@ main {
 }
 
 .follow-section > p:not(.eyebrow) {
-  opacity: 0.65;
+  color: #aaaaaa;
   margin-bottom: 30px;
 }
 
@@ -208,22 +212,26 @@ main {
 .follow-form input {
   flex: 1;
   padding: 15px 18px;
-  border: 1px solid #cccccc;
-  background: #ffffff;
-  color: #181818;
+  border: 1px solid #333333;
+  background: #111111;
+  color: #ffffff;
   font-family: Arial, sans-serif;
   font-size: 0.9rem;
   outline: none;
 }
 
+.follow-form input::placeholder {
+  color: #777777;
+}
+
 .follow-form input:focus {
-  border-color: #d90429;
+  border-color: #ff1744;
 }
 
 .follow-form button {
   padding: 15px 25px;
   border: none;
-  background: #d90429;
+  background: #ff1744;
   color: #ffffff;
   cursor: pointer;
   font-family: Arial, sans-serif;
@@ -231,7 +239,7 @@ main {
 }
 
 .follow-form button:hover {
-  background: #b80323;
+  background: #d9143b;
 }
 
 
@@ -241,10 +249,10 @@ main {
   padding: 40px 7%;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #292929;
   font-family: Arial, sans-serif;
   font-size: 0.75rem;
-  opacity: 0.55;
+  color: #777777;
 }
 
 
